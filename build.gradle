@@ -13,7 +13,8 @@ compileTestJava {
 dependencies {
     testImplementation(
             "com.codeborne:selenide:6.12.3",
-            'org.junit.jupiter:junit-jupiter:5.9.2'
+            "org.junit.jupiter:junit-jupiter:5.9.2",
+            "org.slf4j:slf4j-simple:2.0.6"
     )
 }
 
